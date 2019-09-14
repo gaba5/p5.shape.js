@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww12540\viewh15560\viewkind1
+\deftab720
+\pard\pardeftab720\ri0\qc\partightenfactor0
+
+\f0\fs48 \cf0 P5.SHAPE.JS REFERENCE:\
+\
+\pard\pardeftab720\ri0\qc\partightenfactor0
+
+\fs40 \cf0 DESCRIPTION:\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\fs36 \cf0 Welcome to p5.shape.js, a library for the p5.js library. It adds more shapes to the existing ellipse, circle, rect etc. This library is in no way conclusive and just adds basic shapes to be used in any way you please.\
+\pard\pardeftab720\ri0\qc\partightenfactor0
+\cf0 \
+\pard\pardeftab720\ri0\qc\partightenfactor0
+
+\fs40 \cf0 SOME DEFINITIONS:\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\fs36 \cf0 In this library you will see four terms: x, y, size and lineT.\
+X: The horizontal position of your shape on the screen\
+Y: The vertical position of your shape on the screen\
+SIZE: This is the size of the shape. It is the number that the math for the length and size of the sided of the shape.\
+LINET: This final term is the thickness of the line bordering the shape, zero would mean no outline, one would be a normal outline and it scales up from there.\
+\
+Note: These shapes draw from the center unlike the stock p5.js shapes, doesn\'92t affect much but something to keep in mind. \
+\pard\pardeftab720\ri0\qc\partightenfactor0
+
+\fs40 \cf0 \
+FUNCTIONS:\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\fs36 \cf0 tri(x,y,size,lineT)-draws a equilateral triangle\
+hexagon(x,y,size,lineT)-draws a hexagon\
+pent(x,y,size,lineT)-draws a pentagon\
+hept(x,y,size,lineT)-draws a seven sided heptagon\
+octo(x,y,size,lineT)-draws a eight sided octagon\
+nona(x,y,size,lineT)-draws a nine sided nonagon\
+deca(x,y,size,lineT)-draws a ten sided decagon\
+center(size)-draws a circle in the very center of the screen, good for frame of reference\
+trap(x,y,size,lineT)-draws a trapezium\
+heart(x,y,size,lineT)-draws a high-poly heart <3\
+rightTri(x,y,size,lineT)-draws a right angles triangle\
+\
+Note: Refer to reference.png as well to see the shapes\
+}
